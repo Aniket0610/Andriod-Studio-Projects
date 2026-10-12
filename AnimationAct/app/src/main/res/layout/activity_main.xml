@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <!-- ================= IMAGE ================= -->
+
+        <ImageView
+            android:id="@+id/imgCar"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/car"
+            android:contentDescription="Car Image" />
+
+        <!-- ================= ANIMATION ================= -->
+
+        <Button
+            android:id="@+id/btnAnimate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Animation" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Animation" />
+
+        <!-- ================= AUDIO ================= -->
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Audio" />
+
+        <Button
+            android:id="@+id/btnPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pause Audio" />
+
+        <!-- ================= VIDEO ================= -->
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <Button
+            android:id="@+id/btnVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Video" />
+
+        <Button
+            android:id="@+id/btnRewind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rewind 10 Seconds" />
+
+        <Button
+            android:id="@+id/btnForward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forward 10 Seconds" />
+
+        <Button
+            android:id="@+id/btnStopVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Video" />
+
+    </LinearLayout>
+
+</ScrollView>
